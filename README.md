@@ -88,24 +88,6 @@ Visualization
 
 ---
 
-## Screenshots
-
-> Screenshots will be added as the project UI is implemented.
-
-### Dependency Graph
-
-![Dependency Graph](docs/images/dependency-graph.png)
-
-### Class Diagram
-
-![Class Diagram](docs/images/class-diagram.png)
-
-### Architecture View
-
-![Architecture View](docs/images/architecture.png)
-
----
-
 ## Architecture
 
 분석 엔진과 UI를 분리하여 분석 결과를 다양한 형태로 활용할 수 있도록 설계합니다.
@@ -195,7 +177,7 @@ Common Code Model
 ### From Source
 
 ```bash
-git clone https://github.com/your-name/local-code-architecture-analyzer.git
+git clone https://github.com/1ruf/CodeArchitectureAnalyzer.git
 cd local-code-architecture-analyzer
 dotnet restore
 dotnet build
